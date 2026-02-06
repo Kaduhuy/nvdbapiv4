@@ -53,13 +53,13 @@ nvdblibrary = 'C:\\Users\\jajens\Downloads\\nvdbapi-V3-master\\nvdbapi-V3-main'
 ## Hvis vi ikke klarer å importere nvdbapiv3 så prøver vi å føye
 ## mappen nvdblibrary til søkestien. 
 try: 
-    import nvdbapiv3
+    import nvdbapiv4
 except ModuleNotFoundError:
     print( "Fant ikke nvdbapiv3 i sys.path, legger til mappen", nvdblibrary)
     sys.path.append( nvdblibrary ) 
     
     try: 
-        import nvdbapiv3
+        import nvdbapiv4
     except ModuleNotFoundError as e:
         print( "\nImport av nvdbapiv3 feiler for", nvdblibrary  )
         raise ModuleNotFoundError( "==> Variabel nvdblibrary skal peke til mappen der du nastet ned reposet https://github.com/LtGlahn/nvdbapi-V4  <==" )

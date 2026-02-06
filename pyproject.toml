@@ -1,25 +1,26 @@
 [tool.poetry]
 name = "nvdbapi-v4"
 version = "1.0.0"
-description = "\"Read data from Norwegian government road database NVDB api https://nvdb-docs.atlas.vegvesen.no/category/nvdb-api-les-v4/""
+description = "Read data from Norwegian government road database NVDB api https://nvdb-docs.atlas.vegvesen.no/category/nvdb-api-les-v4/"
 authors = ["LtGlahn <jensen72@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/LtGlahn/nvdbapiv4"
 repository = "https://github.com/LtGlahn/nvdbapiv4"
 classifiers = [
-    "Environment :: Console",
-    "Operating System :: OS Independent",
-    "Topic :: Software Development :: Documentation",
-    "Topic :: Software Development :: Libraries :: Python Modules",
-    "Topic :: Scientific/Engineering :: GIS",
-    "Topic :: Scientific/Engineering :: Information Analysis",
-    "Programming Language :: Python :: 3",
-    "Development Status :: 5 - Production/Stable"
+  "Environment :: Console",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development :: Documentation",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: Scientific/Engineering :: GIS",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+  "Programming Language :: Python :: 3",
+  "Development Status :: 5 - Production/Stable"
 ]
 packages = [
-    { include = 'nvdbapiv3' }
+  { include = "nvdbapiv4" }
 ]
+
 [tool.poetry.dependencies]
 python = "^3.7"
 requests = "^2.28"

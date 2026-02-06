@@ -173,7 +173,7 @@ for ettNvdbObj in sokeObj:
     print ettNvdbObj['id']
 ```
 
-Takk til [Francesco Frassinelli](https://github.com/frafra), som tok initiativ til denne forbedringen. 
+Takk til [Francesco Frassinelli](https://github.com/frafra) og [Jan Kristian Jensen](https://github.com/LtGlahn/nvdbapi-V2#nvdbfagobjekt), som tok initiativ til denne forbedringen. 
 
 ---
 ### info()
