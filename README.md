@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
  # Jobb interaktivt mot NVDB api V4
 
 Jobb interaktivt og objektorientert mot NVDB api V4! 
@@ -346,7 +346,4 @@ v = nvdbapi.finnid(521218, kunvegnett=True)   # Liste med lenker som finnes på 
 For fagdata returneres en DICT for angjeldende objekt. Denne kan gjøres om til et nvdbFagObjekt. 
 
 For vegnett returneres en liste med de veglenke-delene som inngår i denne lenkesekvensen.  
- 
-=======
-# nvdbapiv4
->>>>>>> fd9ab8e46e0810e18c04b0f4943477810e675d00
+
